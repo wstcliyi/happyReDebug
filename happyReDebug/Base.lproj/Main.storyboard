@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7528.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TDf-U8-FdH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7518.3"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Happiness Debug View Controller-->
+        <scene sceneID="3jM-ag-dE8">
+            <objects>
+                <viewController id="TDf-U8-FdH" customClass="HappinessDebugViewController" customModule="happyReDebug" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8nX-JV-FXI"/>
+                        <viewControllerLayoutGuide type="bottom" id="S0E-pJ-f6l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c4W-df-qdE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zai-q1-aHT" customClass="FaceShowPannel" customModule="happyReDebug" customModuleProvider="target">
+                                <rect key="frame" x="41" y="25" width="518" height="550"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zai-q1-aHT" firstAttribute="leading" secondItem="c4W-df-qdE" secondAttribute="leadingMargin" constant="25" id="BAz-55-Nb9"/>
+                            <constraint firstItem="zai-q1-aHT" firstAttribute="top" secondItem="c4W-df-qdE" secondAttribute="topMargin" constant="25" id="dEW-6h-ruE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zai-q1-aHT" secondAttribute="trailing" constant="25" id="iR4-Qh-Z2N"/>
+                            <constraint firstItem="S0E-pJ-f6l" firstAttribute="top" secondItem="zai-q1-aHT" secondAttribute="bottom" constant="25" id="vwx-E1-3Dk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="faceShowInstance" destination="zai-q1-aHT" id="WEo-lj-8uX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwc-yE-YRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="397"/>
+        </scene>
+    </scenes>
+</document>
