@@ -18,7 +18,7 @@ class HappinessDebugViewController: UIViewController, ScaleRadius {
             println("gettedScale is \(gettedScale)")
             println("gettedLineWidth is \(gettedLineWidth)")
             faceShowInstance.getScale = self
-            faceShowInstance.addGestureRecognizer(UIPinchGestureRecognizer( target: faceShowInstance, action: "pinchScaleForCircle"))
+            faceShowInstance.addGestureRecognizer(UIPinchGestureRecognizer( target: faceShowInstance, action: "pinchScaleForCircle:"))
         }
     }
     func setScaleForRadius(sender: FaceShowPannel) -> CGFloat? {

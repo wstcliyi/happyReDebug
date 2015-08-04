@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A73031E2-510E-4A6A-8652-8D6F359B107A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>happyReDebug</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE5F4BFC72F6B2AF326909427EDAB7D8AD5552AE</key>
+		<string>https://github.com/wstcliyi/happyReDebug.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>happyReDebug.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE5F4BFC72F6B2AF326909427EDAB7D8AD5552AE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wstcliyi/happyReDebug.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE5F4BFC72F6B2AF326909427EDAB7D8AD5552AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE5F4BFC72F6B2AF326909427EDAB7D8AD5552AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>happyReDebug</string>
+		</dict>
+	</array>
+</dict>
+</plist>
